@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-particles-js": "^2.7.0",
+    "react-scripts": "3.1.1",
+    "react-tilt": "^0.1.4",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
